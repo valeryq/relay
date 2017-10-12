@@ -13,6 +13,7 @@
 'use strict';
 
 const ErrorUtils = require('ErrorUtils');
+const PropTypes = require('prop-types');
 const React = require('React');
 const RelayContainerComparators = require('RelayContainerComparators');
 const RelayContainerProxy = require('RelayContainerProxy');
@@ -78,7 +79,7 @@ export type RelayLazyContainer = Function;
 const containerContextTypes = {
   relay: RelayPropTypes.Environment,
   route: RelayPropTypes.QueryConfig.isRequired,
-  useFakeData: React.PropTypes.bool,
+  useFakeData: PropTypes.bool,
 };
 
 /**

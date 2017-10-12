@@ -59,7 +59,7 @@ type State = {
   retry: RelayRetryCallback,
 };
 
-const {PropTypes} = React;
+const PropTypes = require('prop-types');
 
 const INACTIVE_READY_STATE = {
   aborted: false,

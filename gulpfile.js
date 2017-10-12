@@ -23,6 +23,7 @@ const babelOptions = require('./scripts/getBabelOptions')({
     'babel-runtime/core-js/array/from': 'babel-runtime/core-js/array/from',
     'babel-runtime/core-js/object/freeze': 'babel-runtime/core-js/object/freeze',
     'babel-runtime/helpers/defineProperty': 'babel-runtime/helpers/defineProperty',
+    'prop-types': 'prop-types',
     'React': 'react',
     'ReactDOM': 'react-dom',
     'ReactNative': 'react-native',
